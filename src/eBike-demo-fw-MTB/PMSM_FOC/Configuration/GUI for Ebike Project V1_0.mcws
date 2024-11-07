@@ -1,0 +1,3191 @@
+{
+	"version": "2.2.0",
+	"components": [
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "ADC.adc_res_pot",
+					"address": 536879436,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 4095,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				20,
+				4
+			],
+			"componentIndex": 1,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "POT Ref Input",
+			"variable": [
+				{
+					"symbol": "ADC.adc_res_pot",
+					"address": 536879436,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"orientation": "vertical",
+			"lowerLimit": 0,
+			"upperLimit": 4095,
+			"noTicks": 10,
+			"isDisplayPercentage": false,
+			"componentType": "sliderComponent",
+			"position": [
+				3,
+				4
+			],
+			"componentIndex": 2,
+			"size": [
+				17,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				6
+			],
+			"maxSize": [
+				40,
+				6
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Startup Throttle Enable (1) Enable (0) Disabled",
+			"variable": [],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				10,
+				17
+			],
+			"componentIndex": 9,
+			"size": [
+				5,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Eco",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.ebike_throttle_mode",
+					"address": 536879974,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"activeValue": 1,
+			"inactiveValue": 1,
+			"isDisplayLabel": false,
+			"activeLabel": "Active",
+			"inactiveLabel": "Inactive",
+			"componentType": "toggleButton",
+			"position": [
+				4,
+				11
+			],
+			"componentIndex": 11,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Normal",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.ebike_throttle_mode",
+					"address": 536879974,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"activeValue": 2,
+			"inactiveValue": 2,
+			"isDisplayLabel": false,
+			"activeLabel": "Active",
+			"inactiveLabel": "Inactive",
+			"componentType": "toggleButton",
+			"position": [
+				4,
+				17
+			],
+			"componentIndex": 12,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Sports",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.ebike_throttle_mode",
+					"address": 536879974,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"activeValue": 3,
+			"inactiveValue": 3,
+			"isDisplayLabel": false,
+			"activeLabel": "Active",
+			"inactiveLabel": "Inactive",
+			"componentType": "toggleButton",
+			"position": [
+				4,
+				23
+			],
+			"componentIndex": 13,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "EBike Brake",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.ebike_brake",
+					"address": 536880148,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"activeValue": 1,
+			"inactiveValue": 0,
+			"isDisplayLabel": false,
+			"activeLabel": "Active",
+			"inactiveLabel": "Inactive",
+			"componentType": "toggleButton",
+			"position": [
+				10,
+				11
+			],
+			"componentIndex": 16,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "input.iq_ref",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_INPUT.ref_iq",
+					"address": 536879870,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				4,
+				32
+			],
+			"componentIndex": 17,
+			"lockedTo": -1,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				1260
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "input.Iq_ref_temp",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_INPUT.ref_iq_temp",
+					"address": 536879872,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				9,
+				32
+			],
+			"componentIndex": 18,
+			"lockedTo": -1,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				1260
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "power_limit_iq",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.power_limit_iq",
+					"address": 536879988,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				14,
+				32
+			],
+			"componentIndex": 19,
+			"lockedTo": -1,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				32767
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "assist_torque_limit_iq",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.ebike_assist_limit_iq",
+					"address": 536879984,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				19,
+				32
+			],
+			"componentIndex": 20,
+			"lockedTo": -1,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				32767
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Hall Zero Id",
+			"variable": [
+				{
+					"symbol": "hall_sensor_data.run_zero_angle_id",
+					"address": 536879578,
+					"type": "uint8_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 8
+				}
+			],
+			"maxVariables": 1,
+			"activeValue": 1,
+			"inactiveValue": 0,
+			"isDisplayLabel": false,
+			"activeLabel": "Active",
+			"inactiveLabel": "Inactive",
+			"componentType": "toggleButton",
+			"position": [
+				2,
+				88
+			],
+			"componentIndex": 21,
+			"lockedTo": 35,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Zero Deg  Hall Pattern Value",
+			"variable": [
+				{
+					"symbol": "hall_sensor_data.zero_hall_pos",
+					"address": 536879577,
+					"type": "uint8_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 8
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				9,
+				88
+			],
+			"componentIndex": 22,
+			"lockedTo": 35,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Hall Pattern Direction",
+			"variable": [
+				{
+					"symbol": "hall_sensor_data.hall_pat_dir",
+					"address": 536879580,
+					"type": "int8_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 8
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				15,
+				88
+			],
+			"componentIndex": 23,
+			"lockedTo": 35,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Emergency Stop",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.motor_start_flag",
+					"address": 536879966,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"rotateSwitcher": false,
+			"positiveValue": 1,
+			"negativeValue": 0,
+			"topLabel": "Off",
+			"bottomLabel": "On",
+			"componentType": "buttonSwitch",
+			"position": [
+				16,
+				16
+			],
+			"componentIndex": 28,
+			"lockedTo": -1,
+			"size": [
+				9,
+				7
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				6,
+				2
+			],
+			"maxSize": [
+				15,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Motor Speed (rpm)",
+			"variable": [
+				{
+					"symbol": "Speed_RPM_LPF",
+					"address": 536879404,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"numSections": 3,
+			"formula": "value",
+			"upperLimits": [
+				2000,
+				4000,
+				6000,
+				400,
+				500,
+				600,
+				700,
+				800,
+				900,
+				1000
+			],
+			"sectionColors": [
+				"#4CA460",
+				"#E16B25",
+				"#CD002F",
+				"#4CA460",
+				"#E16B25",
+				"#CD002F",
+				"#4CA460",
+				"#E16B25",
+				"#CD002F"
+			],
+			"componentType": "gaugeComponent",
+			"position": [
+				4,
+				43
+			],
+			"componentIndex": 29,
+			"lockedTo": 36,
+			"size": [
+				13,
+				16
+			],
+			"value": [
+				242
+			],
+			"minSize": [
+				10,
+				12
+			],
+			"maxSize": [
+				19,
+				30
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "Speed_RPM_LPF",
+					"address": 536879404,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				13,
+				47
+			],
+			"componentIndex": 30,
+			"lockedTo": 36,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				242
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "DC Link Voltage(V)",
+			"variable": [
+				{
+					"symbol": "VDC_mV_LPF",
+					"address": 536879408,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"numSections": 3,
+			"formula": "VDC_mV_LPF*0.001",
+			"upperLimits": [
+				24,
+				48,
+				72,
+				400,
+				500,
+				600,
+				700,
+				800,
+				900,
+				1000
+			],
+			"sectionColors": [
+				"#4CA460",
+				"#E16B25",
+				"#CD002F",
+				"#4CA460",
+				"#E16B25",
+				"#CD002F",
+				"#4CA460",
+				"#E16B25",
+				"#CD002F"
+			],
+			"componentType": "gaugeComponent",
+			"position": [
+				4,
+				59
+			],
+			"componentIndex": 31,
+			"lockedTo": 36,
+			"size": [
+				13,
+				16
+			],
+			"value": [
+				47789
+			],
+			"minSize": [
+				10,
+				12
+			],
+			"maxSize": [
+				19,
+				30
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "VDC_mV_LPF",
+					"address": 536879408,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "VDC_mV_LPF*0.001",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				13,
+				63
+			],
+			"componentIndex": 32,
+			"lockedTo": 36,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				47.789
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "Board Temperature",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.inverter_board_temp_degrees",
+					"address": 536879964,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isDisplayNumericDisplay": true,
+			"overTempLimit": 100,
+			"componentType": "linearGaugeComponent",
+			"position": [
+				4,
+				75
+			],
+			"componentIndex": 33,
+			"lockedTo": 36,
+			"size": [
+				18,
+				7
+			],
+			"value": [
+				25
+			],
+			"minSize": [
+				18,
+				7
+			],
+			"maxSize": [
+				20,
+				7
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				1,
+				1
+			],
+			"componentIndex": 34,
+			"lockedTo": -1,
+			"size": [
+				25,
+				41
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				1,
+				84
+			],
+			"componentIndex": 35,
+			"lockedTo": -1,
+			"size": [
+				25,
+				14
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				1,
+				42
+			],
+			"componentIndex": 36,
+			"lockedTo": -1,
+			"size": [
+				25,
+				42
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 0)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				29,
+				13
+			],
+			"componentIndex": 37,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Motor Control State Machine",
+			"borderSize": 0,
+			"borderColor": "#F7F6F6",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				25,
+				13
+			],
+			"componentIndex": 39,
+			"lockedTo": -1,
+			"size": [
+				5,
+				13
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "FOC CLOSED LOOP",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				29,
+				4
+			],
+			"componentIndex": 40,
+			"lockedTo": -1,
+			"size": [
+				5,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 1)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				34,
+				13
+			],
+			"componentIndex": 41,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "HALL CALIB PROCESS",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				34,
+				4
+			],
+			"componentIndex": 42,
+			"lockedTo": 49,
+			"size": [
+				5,
+				11
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 3)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				39,
+				13
+			],
+			"componentIndex": 43,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "MOTOR STOP",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				39,
+				4
+			],
+			"componentIndex": 44,
+			"lockedTo": 49,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 4)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				44,
+				13
+			],
+			"componentIndex": 45,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "VF OPEN LOOP",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				44,
+				4
+			],
+			"componentIndex": 46,
+			"lockedTo": 49,
+			"size": [
+				5,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 5)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				49,
+				13
+			],
+			"componentIndex": 47,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "TRANSITION",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				49,
+				4
+			],
+			"componentIndex": 48,
+			"lockedTo": 49,
+			"size": [
+				5,
+				7
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				26,
+				1
+			],
+			"componentIndex": 49,
+			"lockedTo": -1,
+			"size": [
+				29,
+				41
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 6)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				29,
+				28
+			],
+			"componentIndex": 50,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "PRE POSITIONING ",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				29,
+				20
+			],
+			"componentIndex": 51,
+			"lockedTo": -1,
+			"size": [
+				5,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 7)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				34,
+				28
+			],
+			"componentIndex": 52,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "ERROR",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				34,
+				20
+			],
+			"componentIndex": 53,
+			"lockedTo": 49,
+			"size": [
+				5,
+				7
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "BOOTSTRAP",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				39,
+				20
+			],
+			"componentIndex": 54,
+			"lockedTo": 49,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 8)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				39,
+				28
+			],
+			"componentIndex": 55,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "MOTOR_COASTING",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				44,
+				20
+			],
+			"componentIndex": 56,
+			"lockedTo": 49,
+			"size": [
+				5,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.msm_state",
+					"address": 536879932,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 9)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				44,
+				28
+			],
+			"componentIndex": 57,
+			"lockedTo": 49,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				8
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Error Monitoring",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				25,
+				57
+			],
+			"componentIndex": 58,
+			"lockedTo": -1,
+			"size": [
+				5,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "DC Link Under Voltage",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				29,
+				44
+			],
+			"componentIndex": 59,
+			"lockedTo": -1,
+			"size": [
+				5,
+				11
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "DC Link Over Voltage",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				33,
+				44
+			],
+			"componentIndex": 60,
+			"lockedTo": 79,
+			"size": [
+				5,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Motor STALL",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				37,
+				44
+			],
+			"componentIndex": 61,
+			"lockedTo": 79,
+			"size": [
+				5,
+				7
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Inverter Over Temperature",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				41,
+				44
+			],
+			"componentIndex": 62,
+			"lockedTo": 79,
+			"size": [
+				5,
+				13
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Torque Limit Exceeded",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				45,
+				44
+			],
+			"componentIndex": 63,
+			"lockedTo": 79,
+			"size": [
+				5,
+				12
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Over Current",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				29,
+				65
+			],
+			"componentIndex": 64,
+			"lockedTo": 79,
+			"size": [
+				5,
+				7
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "IDC Over Current",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				33,
+				65
+			],
+			"componentIndex": 65,
+			"lockedTo": 79,
+			"size": [
+				5,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "CTrap",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				37,
+				65
+			],
+			"componentIndex": 66,
+			"lockedTo": 79,
+			"size": [
+				5,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Invalid Hall Pattern",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				41,
+				65
+			],
+			"componentIndex": 67,
+			"lockedTo": 79,
+			"size": [
+				5,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"content": "Driver Fault Error",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				45,
+				65
+			],
+			"componentIndex": 68,
+			"lockedTo": 79,
+			"size": [
+				5,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 0)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				29,
+				56
+			],
+			"componentIndex": 69,
+			"lockedTo": 79,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 1)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				33,
+				56
+			],
+			"componentIndex": 70,
+			"lockedTo": 79,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 2)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				37,
+				56
+			],
+			"componentIndex": 71,
+			"lockedTo": 79,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 3)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				41,
+				56
+			],
+			"componentIndex": 72,
+			"lockedTo": 79,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 4)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				45,
+				56
+			],
+			"componentIndex": 73,
+			"lockedTo": 79,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 5)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				29,
+				74
+			],
+			"componentIndex": 74,
+			"lockedTo": 79,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 6)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				33,
+				74
+			],
+			"componentIndex": 75,
+			"lockedTo": 79,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 7)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				37,
+				74
+			],
+			"componentIndex": 76,
+			"lockedTo": 79,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 8)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				41,
+				74
+			],
+			"componentIndex": 77,
+			"lockedTo": 79,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_CTRL.error_status",
+					"address": 536879956,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "(value & (1 << 9)) > 0",
+			"activeColor": "#33FF00",
+			"inactiveColor": "#FF003A",
+			"componentType": "ledIndicator",
+			"position": [
+				45,
+				74
+			],
+			"componentIndex": 78,
+			"lockedTo": 79,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Dashboard",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				26,
+				42
+			],
+			"componentIndex": 79,
+			"lockedTo": -1,
+			"size": [
+				29,
+				42
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_OUTPUT.flux_id",
+					"address": 536879622,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				},
+				{
+					"symbol": "PMSM_FOC_OUTPUT.flux_vd",
+					"address": 536879612,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 4,
+			"maxSamples": 50,
+			"collectAndDraw": true,
+			"drawPerDataPoint": 10,
+			"lineColor": "#1300FF",
+			"lineMode": "lines",
+			"yName": "",
+			"yMin": -2000,
+			"yMax": 5000,
+			"componentType": "scatterChart",
+			"position": [
+				10,
+				5
+			],
+			"componentIndex": 80,
+			"lockedTo": -1,
+			"size": [
+				41,
+				47
+			],
+			"value": [
+				1801,
+				-2740
+			],
+			"minSize": [
+				6,
+				8
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Flux PI Controller",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				24
+			],
+			"componentIndex": 81,
+			"lockedTo": 34,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_FLUX_PI.ki",
+					"address": 536879754,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 32767,
+			"textAlign": "Left",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				5,
+				29
+			],
+			"componentIndex": 86,
+			"lockedTo": 34,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				117
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_FLUX_PI.kp",
+					"address": 536879752,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 32767,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				5,
+				18
+			],
+			"componentIndex": 87,
+			"lockedTo": 34,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				3385
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_FLUX_PI.scale_kpki",
+					"address": 536879756,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 32767,
+			"textAlign": "Left",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				5,
+				40
+			],
+			"componentIndex": 88,
+			"lockedTo": 89,
+			"size": [
+				5,
+				4
+			],
+			"value": [
+				13
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				2,
+				4
+			],
+			"componentIndex": 89,
+			"lockedTo": -1,
+			"size": [
+				8,
+				48
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Torque PI Controller",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				72
+			],
+			"componentIndex": 90,
+			"lockedTo": 36,
+			"size": [
+				5,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Kp",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				5,
+				61
+			],
+			"componentIndex": 91,
+			"lockedTo": 36,
+			"size": [
+				6,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_TORQUE_PI.kp",
+					"address": 536879796,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 32767,
+			"textAlign": "Left",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				5,
+				65
+			],
+			"componentIndex": 92,
+			"lockedTo": 36,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				3385
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Ki",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				5,
+				73
+			],
+			"componentIndex": 93,
+			"lockedTo": 36,
+			"size": [
+				6,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_TORQUE_PI.ki",
+					"address": 536879798,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 32767,
+			"textAlign": "Left",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				5,
+				77
+			],
+			"componentIndex": 94,
+			"lockedTo": 36,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				117
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Scale",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				5,
+				85
+			],
+			"componentIndex": 95,
+			"lockedTo": 35,
+			"size": [
+				6,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_TORQUE_PI.scale_kpki",
+					"address": 536879800,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 32767,
+			"textAlign": "Left",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				5,
+				89
+			],
+			"componentIndex": 96,
+			"lockedTo": 35,
+			"size": [
+				5,
+				4
+			],
+			"value": [
+				13
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_OUTPUT.torque_iq",
+					"address": 536879624,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				},
+				{
+					"symbol": "PMSM_FOC_OUTPUT.torque_vq",
+					"address": 536879616,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 4,
+			"maxSamples": 50,
+			"collectAndDraw": true,
+			"drawPerDataPoint": 10,
+			"lineColor": "#0002FF",
+			"lineMode": "lines",
+			"yName": "",
+			"yMin": 0,
+			"yMax": 32767,
+			"componentType": "scatterChart",
+			"position": [
+				10,
+				52
+			],
+			"componentIndex": 97,
+			"lockedTo": -1,
+			"size": [
+				36,
+				46
+			],
+			"value": [
+				1378,
+				21865
+			],
+			"minSize": [
+				6,
+				8
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				2,
+				52
+			],
+			"componentIndex": 98,
+			"lockedTo": -1,
+			"size": [
+				8,
+				46
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"separatorColor": "#000000FF",
+			"orientation": "vertical",
+			"width": 5,
+			"componentType": "separatorComponent",
+			"position": [
+				2,
+				51
+			],
+			"componentIndex": 103,
+			"lockedTo": -1,
+			"size": [
+				49,
+				2
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				2
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Kp",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				5,
+				14
+			],
+			"componentIndex": 111,
+			"lockedTo": 34,
+			"size": [
+				6,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Scale",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				5,
+				36
+			],
+			"componentIndex": 113,
+			"lockedTo": 34,
+			"size": [
+				6,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "PID Tuning",
+			"componentLabel": "",
+			"content": "Ki",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				5,
+				25
+			],
+			"componentIndex": 114,
+			"lockedTo": 34,
+			"size": [
+				6,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		}
+	],
+	"definitions": [],
+	"tabs": [
+		"Dashboard",
+		"PID Tuning"
+	],
+	"deviceName": "XMC1404-0128",
+	"elfPath": "C:\\Project_Ebike_BB_Sept24_repo\\ebike_sw_48v_270w_ref\\eBike-demo-fw\\Debug\\eBike-demo-fw.elf",
+	"oscilloscopeState": []
+}
